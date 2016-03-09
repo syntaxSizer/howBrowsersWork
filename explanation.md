@@ -89,10 +89,9 @@ Browsers Hight level structure
 
  the rendering engine will start getting the content of the requested document from the network layer.This usually will be done in 8kB chunks.
 
- parsing HTML         
- to construct ----->  render tree ----->  Layout of the
- the DOM tree         construction        rendering tree
- 
+ parsing HTML to construct the DOM tree ----->  render tree construction ----->  Layout of the rendering tree
+
+
 http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_main_flow
 
 DOM (Document Object Model).
