@@ -1,4 +1,4 @@
-HowBrowsersWork
+#HowBrowsersWork
 
 
 
@@ -13,7 +13,7 @@ A web browser is a software application used to access the Internet in order to 
 
 
 
-Function of Browser:
+####Function of Browser:
 The main function of a Browser is to present resources that have been requested by the user from the server, and display it in the browser window. Usually this resources are an HTML ,XHML ,PDF ,  images, video or any other content . The location of the resources is determined by the user input in the address bar it's called URL(Uniform Resource Identifier ). you can think of it as the index that refer to that specific content in the server DB (data base).
 
 
@@ -25,7 +25,7 @@ Now days most of the Browsers more or less confirm to the specifications .
 
 
 
-Browser User Interface or (BUI):
+####Browser User Interface or (BUI):
 is a method of interacting with an application , typically hosted on a remote device, through controls presented in the web browsers.
 https://en.wikipedia.org/wiki/Browser_user_interface
 
@@ -33,10 +33,10 @@ https://en.wikipedia.org/wiki/Browser_user_interface
 
 
 
-Browser User Interface has a lot in common with each other.
+####Browser User Interface has a lot in common with each other.
 The W3C dose not include a UI in the Web specifications , even though different Browsers share the same concept of presentation when it comes to Browser UI
 
-Common UI elements:
+#####Common UI elements:
 -Address bar for entering URL
 -Home Button
 -Back/Forward buttons
@@ -49,13 +49,14 @@ The reason why Browsers UI has lot of similarities  is mostly because developer 
 
 
 
-Browsers Hight level structure
+#####Browsers Hight level structure
 
 1.The user interface  :
   this include everything browser display except the window where you see the requested web page .
 
 
-2.the browser engine : marshals actions between the UI and the rendering engine
+2.the browser engine :
+  marshals actions between the UI and the rendering engine
 
 3.The rendering engine :
   responsible for displaying the requested content .
@@ -65,7 +66,7 @@ Browsers Hight level structure
   http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_rendering_engine
 
 
-4.Networking : for network calls such as HTTP (Hyper Text Transfer Protocol) requests, using different implementations of different
+4.Networking : for network calls such as HTTP (Hyper Text Transfer Protocol) requests, using different implementations of     different
   platform behind a platform-independent
 
 
